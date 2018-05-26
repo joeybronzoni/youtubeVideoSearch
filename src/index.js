@@ -6,7 +6,7 @@ import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 // google youtube browser api key
-const API_KEY = ``;
+const API_KEY = `AIzaSyCo-ZwLXVBAqVw1-v2V6HwfFwyM-EXFFMk`;
 
 // Create a new component. This component should produce HTML
 /*  Remember the arrow function can be used here
