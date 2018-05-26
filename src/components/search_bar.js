@@ -58,7 +58,7 @@ class SearchBar extends React.Component {
 	  </div>
 	);
   }
-
+  // vid 2/31 I could change this to take two functions but it looks cleaner like this with handling one arg
   onInputChange(term) {
     this.setState({ term });
 	this.props.onSearchTermChange(term);

@@ -8,6 +8,8 @@ const VideoListItem = (props) => {
 
 // we can refactor this VideoListItem with es6 like this:
 const  VideoListItem = ({ video, onVideoSelect }) => {
+ /* the onVideoSelect() has onVideoSelect available from index.js because pass it as
+  a property to first video_list then to video_list_items*/
   const imageUrl = video.snippet.thumbnails.default.url;
   // ({video}) is equal to const video = props.video;
   return (
